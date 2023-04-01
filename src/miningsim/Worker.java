@@ -12,7 +12,7 @@ import java.util.NoSuchElementException;
 public class Worker implements Runnable, IRandomGeneration<Integer> {
 
     /** Time [ms] it takes the worker to load a resource onto a ferry. */
-    private static final long LOAD_RESOURCE_DURATION_MS = 1;
+    private static final long LOAD_RESOURCE_DURATION_MS = 1000;
 
     /** Mine the Worker is associated with */
     private final Mine mine;
